@@ -24,48 +24,49 @@
   <body>
     <!-- Header Section -->
    <!-- Top Navbar -->
-  <nav class="navbar navbar-dark bg-black fixed-top px-3 py-2">
-    <a class="navbar-brand" href="#">
-      <img
-        src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1637759004/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg"
-        alt="Croma Logo"
-        height="30"
-      />
-    </a>
-    <div class="d-flex align-items-center">
-      <button class="btn btn-dark border-0" id="openSidebar">
-        <i class="bi bi-list fs-3"></i>
-      </button>
-      <span class="text-white fw-semibold ms-2">Menu</span>
+   <nav class="navbar navbar-dark bg-black fixed-top px-3 py-2">
+    <div class="container-fluid d-flex flex-wrap align-items-center justify-content-between">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1637759004/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg"
+          alt="Croma Logo"
+          height="30"
+        />
+      </a>
+  
+      <!-- Sidebar Button -->
+      <div class="d-flex align-items-center me-3">
+        <button class="btn btn-dark border-0" id="openSidebar">
+          <i class="bi bi-list fs-3"></i>
+        </button>
+        <span class="text-white fw-semibold ms-2">Menu</span>
+      </div>
+  
+      <!-- Search Bar -->
+      <form class="d-flex flex-grow-1 mx-3" style="min-width: 200px;">
+        <input class="form-control me-2" type="search" placeholder="What are you looking for ?" />
+        <button class="btn btn-outline-light" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+  
+      <!-- Right-side Icons -->
+      <div class="d-flex align-items-center flex-shrink-0">
+        <div class="d-flex align-items-center text-white me-4">
+          <i class="bi bi-geo-alt fs-5 me-1"></i>
+          <span class="d-none d-sm-inline">Mumbai, 400049</span>
+        </div>
+        <div class="text-white me-4">
+          <i class="bi bi-person fs-5"></i>
+        </div>
+        <div class="text-white position-relative">
+          <i class="bi bi-cart fs-5"></i>
+        </div>
+      </div>
     </div>
-    <form class="d-flex mx-auto w-50">
-      <input class="form-control me-2" type="search" placeholder="What are you looking for ?" />
-      <button class="btn btn-outline-light" type="submit">
-        <i class="fa-solid fa-magnifying-glass"></i>
-
-      </button>
-      
-      
-    </form>
-    <div class="d-flex align-items-center ms-auto">
-      <!-- Location -->
-      <div class="d-flex align-items-center text-white me-4">
-        <i class="bi bi-geo-alt fs-5 me-1"></i>
-        <span>Mumbai, 400049</span>
-      </div>
-    
-      <!-- Profile -->
-      <div class="text-white me-4">
-        <i class="bi bi-person fs-5"></i>
-      </div>
-    
-      <!-- Cart -->
-      <div class="text-white position-relative">
-        <i class="bi bi-cart fs-5"></i>
-      </div>
-    </div>
-    
   </nav>
+  
 
   <!-- Sidebar Menu -->
   <div id="sidebarMenu">

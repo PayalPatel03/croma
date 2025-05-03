@@ -56,10 +56,10 @@ body {
         cursor: pointer;
       }
   /* Navbar */
-  .navbar {
+  /* .navbar {
     transition: background-color 0.3s ease, padding 0.3s ease;
   }
-  
+   */
   .navbar-brand img {
     height: 35px;
   }
@@ -69,13 +69,13 @@ body {
     color: #999;
   }
   
-  .nav-item {
+  /* .nav-item {
     font-size: 0.9rem;
-  }
+  } */
   
-  .badge {
+  /* .badge {
     font-size: 0.7rem;
-  }
+  } */
   
   #menuContent {
     transition: max-height 0.4s ease, padding 0.3s ease;
